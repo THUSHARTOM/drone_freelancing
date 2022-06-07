@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.intro-section {
+  background-color: #000000;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+}
+#drone-image {
+  display: block;
+  width: 800px;
+  transform: rotateY(180deg);
+}
+.intro-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.intro-description > h1 {
+  color: #f8efef;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  margin-bottom: 35px;
+}
+.intro-quote {
+  padding: 0 50px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.intro-quote > h3 {
+  color: #b1a8a8;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+}
+#intro-drone-text {
+  color: #f8efef;
+  font-weight: bold;
+  margin-top: -3px;
+}
+#intro-meta-text {
+  color: #b1a8a8;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  font-style: italic;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.booking-btn-container {
+  display: block;
+}
+.booking-btn {
+  background-color: #3c40c6;
+  color: inherit;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-family: "Rubik", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  letter-spacing: 1.2px;
+}
+.booking-btn:hover {
+  transform: scale(1.03);
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .intro-description {
+    padding: 45px 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .intro-description {
+    padding: 65px 0;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* Animation */
+.fade-in-drone-image {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.fade-in-title {
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+}
+.fade-in-quote {
+  animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
+  -o-animation: fadeIn 6s;
+  -ms-animation: fadeIn 6s;
+}
+.fade-in-book-btn {
+  animation: fadeIn 8s;
+  -webkit-animation: fadeIn 8s;
+  -moz-animation: fadeIn 8s;
+  -o-animation: fadeIn 8s;
+  -ms-animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
